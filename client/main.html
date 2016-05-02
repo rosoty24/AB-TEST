@@ -3,20 +3,9 @@
 </head>
 
 <body>
-  <h1>Welcome to Meteor!</h1>
-
-  {{> hello}}
-  {{> info}}
+  
 </body>
 
-<template name="ab">
-    <div class="container">
-        <div class="jumbotron">
-            <h1>AB TEST MAIN</h1> 
-        </div>
-        <p>ORIGINAL</p> 
-    </div>
-</template>
 <template name="original">
     <div class="container">
         <div class="jumbotron">
@@ -43,6 +32,9 @@
     </div>
 </template>
 <template name="mainLayout">
+    {{> yield }}
+</template>
+<template name="home">
     <div class="container">
         <div class="jumbotron">
             <h1>AB TEST HOMEPAGE</h1> 
