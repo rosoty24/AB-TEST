@@ -22,7 +22,6 @@ iron:router
 mrt:bootstrap-3
 reywood:iron-router-ga
 bootstrap
-meteorhacks:npm
 
 
 npm-container
